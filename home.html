@@ -28,14 +28,15 @@
                  <div class="divider"></div>
                  <!-- features starts-->
                  <div>
-                    <button class="btn btn-lg">Add Money</button>
-                    <button class="btn btn-lg">Cash Out</button>
+                    <button id="show-add-money-form" class="btn btn-lg">Add Money <button>
+                    <button id="show-cash-out-form" class="btn btn-lg">Cash Out</button>
+                    <button id="show-transaction-history" class="btn btn-lg">Transactions</button>
                 </div>
                  <!-- features ends-->
                   <div class="divider"> </div>
 
                  <!-- Add Money form Starts  -->
-                 <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                 <div id="add-money-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
@@ -58,7 +59,7 @@
 
 
                  <!-- Cash Out Start -->
-                 <div class="  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                 <div id="cash-out-form" class="  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                   <form class="card-body">
                     <div class="form-control">
                       <label class="label">
@@ -78,6 +79,13 @@
                   </form>
                 </div>
                  <!-- Cash Out end  -->
+
+
+                  <!-- transaction start  -->
+                   <div id="transaction-section">
+                    <h2 class="text-5xl text-center ">Transaction History</h2>
+                   </div>
+                  <!-- transaction end  -->
               </div>
             </div>
           </div>
@@ -86,6 +94,7 @@
     <script src="./js/utility2.js"></script>
     <script src="./js/addMoney2.js"></script>
     <script src="./js/cashOut.js"></script>
+    <script src="./js/feature.js"></script>
     
 </body>
 </html>
